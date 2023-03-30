@@ -1,5 +1,11 @@
-import { AboutSection } from '../components'
+import { AboutSection, ServicesSection, FaqSection } from '../components'
 
 export const AboutUs = () => {
-    return <AboutSection/>
+    return (
+        <>
+            <AboutSection/>
+            <ServicesSection/>
+            <FaqSection/>
+        </>
+    )
 }
